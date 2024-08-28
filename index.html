@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryMap Slides</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Botón para volver a la diapositiva de inicio -->
+        <button id="homeButton">Volver a la Diapositiva de Inicio</button>
+
+        <!-- Diapositiva de inicio con índice -->
+        <div class="slide" id="homeSlide">
+            <h1>Bienvenido a mi StoryMap</h1>
+            <p>Esta es la diapositiva de inicio a pantalla completa.</p>
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#slide1">Ir a la Diapositiva 1</a></li>
+                <li><a href="#slide2">Ir a la Diapositiva 2</a></li>
+                <li><a href="#slide3">Ir a la Diapositiva 3</a></li>
+                <li><a href="#finalSlide">Ir a la Diapositiva Final</a></li>
+            </ul>
+        </div>
+
+        <!-- Diapositivas existentes -->
+        <div class="slide" id="slide1">
+            <h1>Título de la Diapositiva 1</h1>
+            <p>Este es un texto de ejemplo para la diapositiva 1.</p>
+            <img src="assets/images/imagen1.png" alt="Imagen de ejemplo">
+        </div>
+
+        <div class="slide" id="slide2">
+            <h1>Título de la Diapositiva 2</h1>
+            <p>Contenido de la diapositiva 2 con un video.</p>
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+
+        <div class="slide" id="slide3">
+            <h1>Título de la Diapositiva 3</h1>
+            <p>Contenido de la diapositiva 3 con un StoryMap.</p>
+            <iframe src="https://edissonmora1234.github.io/Plantilla_mapa_diapos_Storymap/" width="100%" height="500px"></iframe>
+        </div>
+
+        <div class="slide" id="finalSlide">
+            <h1>Gracias por visualizar</h1>
+            <p>Esta es la diapositiva final a pantalla completa.</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
